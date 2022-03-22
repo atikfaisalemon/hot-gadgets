@@ -46,3 +46,38 @@
     background-color: white;
     border-top: none;
 }
+.text-center{
+    text-align: center;
+}
+.v-center{
+    height: 200px;
+    width: 200px;
+    box-shadow: 5px 5px 10px lightgray;
+    text-align: center;
+    border-radius: 10px;
+
+
+}
+.margin-categories{
+    width: 100%;
+}
+#margin-main2{
+    text-align: center;
+    margin-bottom: 100px;
+    
+
+}
+.headline{
+    margin-bottom: 80px;
+}
+h4{
+    color: orange;
+}
+p{
+    color: gray;
+    font-weight: 200;
+}
+.nav-bar{
+    background-color: white;
+
+}
