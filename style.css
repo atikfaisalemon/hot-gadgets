@@ -81,3 +81,12 @@ p{
     background-color: white;
 
 }
+.shadow-cat{
+    margin-right: 40px;
+    box-shadow: 5px 5px 10px lightgray;
+
+}
+.gb-categories img{
+    width: 500px;
+
+}
