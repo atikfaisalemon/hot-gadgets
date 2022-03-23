@@ -12,6 +12,14 @@
     background-repeat: no-repeat;
 
 }
+.bg-img1{
+    background-image: url(img/bg-2.png);
+    height: 500px;;
+    width: 100%;
+    background-repeat: no-repeat;
+
+
+}
 .bg-img2{
     background-image: url(img/bg-2.png);
     height: 500px;
@@ -35,11 +43,11 @@
     border-radius: 10px;
     box-shadow: 5px 5px 10px lightgray;
     padding: 30px;
-    width: 350px;
+    /* width: 350px; */
     text-align: center;
 }
 .card img{
-    width: 230px;
+    width: 60%;
     
 }
 .card-footer{
@@ -82,11 +90,26 @@ p{
 
 }
 .shadow-cat{
-    margin-right: 40px;
     box-shadow: 5px 5px 10px lightgray;
 
 }
 .gb-categories img{
     width: 500px;
 
+}
+.cat-card{
+    gap: 10px;
+}
+.cat-card > img{
+    width: 30%;
+}
+.phone-crds > .col{
+    /* display: flex; */
+    padding: 0 10px 0 10px;
+}
+@media  ( min-width : 768px) {
+    .phone-crds > .col{
+        /* display: flex; */
+        padding: 0 20px 0 20px;
+    }
 }
